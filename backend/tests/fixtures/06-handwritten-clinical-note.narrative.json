@@ -1,0 +1,22 @@
+{
+  "presenting_symptoms": "42-year-old with MDD, recurrent, moderate (F33.1). PHQ-9: 14 on 02/05/2026, down from 21 on 01/15/2026. Reports mood 'somewhat better' with ongoing low motivation and energy and poor appetite; sleep improved to about 6 hrs (was 3-4). Affect constricted but reactive. Denies SI/HI.",
+  "clinical_history": "Escitalopram 10mg started 3 weeks before the visit (Dr. R. Whitfield, MD); partial improvement, no side effects. Concurrent weekly therapy with Dr. Patel. MSE: fair hygiene, normal speech, linear goal-directed thought. Plan: consider 20mg if partial response persists; TSH/CBC if not done recently.",
+  "treatment_goals": [
+    "Reduce PHQ-9 from 14 to below 10 by 02/21/2027",
+    "Sustain sleep of 6+ hours nightly and report improved appetite, tracked at weekly sessions",
+    "Report improved motivation/energy and no SI/HI at each visit through 02/21/2027"
+  ],
+  "medical_necessity": "Recurrent moderate MDD with only partial response to escitalopram 10mg: PHQ-9 fell from 21 (01/15/2026) to 14 (02/05/2026) but remains in the moderate range, with persistent low motivation, low energy, poor appetite and constricted affect. Weekly psychotherapy (90837) and medication management (99214) are needed to consolidate gains, monitor response and guide possible titration to 20mg.",
+  "risk_without_services": "Without continued care, partial response may stall or reverse; the recurrent course places the patient at risk of relapse to more severe depression (prior PHQ-9 21). No current SI/HI reported.",
+  "unsupported_gaps": [
+    "No functional impairment documented (work, home, social, self-care).",
+    "Most recent PHQ-9 is from 02/05/2026; no current score near the 11/30/2026 start date.",
+    "No documentation of course between 02/2026 and 11/2026, including whether escitalopram was increased to 20mg.",
+    "Medication frequency not stated.",
+    "Year of the prior PHQ-9 (01/15) is inferred, not written.",
+    "Episode duration, number of prior episodes and prior treatment history not documented.",
+    "Therapy start date, modality and progress with Dr. Patel not documented.",
+    "TSH/CBC results not documented.",
+    "Patient gender not documented."
+  ]
+}

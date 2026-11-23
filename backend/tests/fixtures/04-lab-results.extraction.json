@@ -1,0 +1,121 @@
+{
+  "document_type": "lab_report",
+  "document_date": "02/03/2026",
+  "summary": "Quest Diagnostics lab report for Priya S. Nair (DOB 09/14/1991), collected 02/01/2026 and reported 02/03/2026, ordered by Dr. James K. Hartwell, MD (Cedar Park Family Medicine). Fasting glucose is 142 mg/dL and HbA1c is 7.8%, interpreted as consistent with Type 2 Diabetes Mellitus (E11.65). The lipid panel shows dyslipidemia, with lifestyle modification and consideration of statin therapy recommended. TSH is within normal limits. Insurance is Cigna.",
+  "patient": {
+    "full_name": {
+      "value": "Priya S. Nair",
+      "quote": "Patient Priya S. Nair",
+      "uncertain": false
+    },
+    "last_name": "Nair",
+    "first_name": "Priya",
+    "middle_initial": "S",
+    "date_of_birth": {
+      "value": "09/14/1991",
+      "quote": "DOB 09/14/1991",
+      "uncertain": false
+    },
+    "gender": {
+      "value": "Female",
+      "quote": "Gender Female",
+      "uncertain": false
+    },
+    "phone": null,
+    "address": null
+  },
+  "insurance": {
+    "payer_name": {
+      "value": "Cigna",
+      "quote": "Insurance Cigna",
+      "uncertain": false
+    },
+    "plan_name": null,
+    "member_id": {
+      "value": "CGN-3847201-U",
+      "quote": "Member ID CGN-3847201-U",
+      "uncertain": false
+    },
+    "group_number": {
+      "value": "88240",
+      "quote": "Group 88240",
+      "uncertain": false
+    },
+    "payer_phone": null,
+    "payer_fax": null
+  },
+  "referring_provider": {
+    "name": {
+      "value": "Dr. James K. Hartwell, MD",
+      "quote": "Ordering Physician Dr. James K. Hartwell, MD",
+      "uncertain": true
+    },
+    "npi": {
+      "value": "1678902345",
+      "quote": "NPI 1678902345",
+      "uncertain": true
+    },
+    "organization": {
+      "value": "Cedar Park Family Medicine",
+      "quote": "Clinic Cedar Park Family Medicine",
+      "uncertain": true
+    },
+    "phone": {
+      "value": "(512) 555-0415",
+      "quote": "Phone (512) 555-0415",
+      "uncertain": true
+    },
+    "fax": null,
+    "address": null,
+    "license_number": null
+  },
+  "treating_provider": null,
+  "diagnoses": [
+    {
+      "code": "E11.65",
+      "description": "Type 2 Diabetes Mellitus",
+      "role": "comorbid",
+      "quote": "Type 2 Diabetes Mellitus (E11.65)",
+      "uncertain": false
+    },
+    {
+      "code": null,
+      "description": "Dyslipidemia",
+      "role": "comorbid",
+      "quote": "Dyslipidemia noted",
+      "uncertain": false
+    }
+  ],
+  "medications": [],
+  "assessments": [],
+  "services_requested": [],
+  "requested_frequency": null,
+  "requested_duration": null,
+  "level_of_care": null,
+  "symptoms": [],
+  "functional_impairment": [],
+  "clinical_history": [
+    {
+      "value": "Fasting glucose 142 mg/dL (high) and HbA1c 7.8% (high), consistent with Type 2 Diabetes Mellitus",
+      "quote": "Elevated fasting glucose and HbA1c consistent with Type 2 Diabetes Mellitus (E11.65)",
+      "uncertain": false
+    },
+    {
+      "value": "Dyslipidemia: total cholesterol 228, triglycerides 195, LDL 147 (high), HDL 42 (low); lifestyle modification and consideration of statin therapy recommended",
+      "quote": "Dyslipidemia noted -- recommend lifestyle modification and consider statin therapy",
+      "uncertain": false
+    },
+    {
+      "value": "TSH 2.45 mIU/L, within normal limits",
+      "quote": "TSH within normal limits",
+      "uncertain": false
+    }
+  ],
+  "risk_factors": [],
+  "treatment_plan": [],
+  "reading_notes": [
+    "Dr. James K. Hartwell is listed only as the ordering physician for these labs. The report does not state that he referred the patient for behavioral health services, so the referring_* fields are marked uncertain.",
+    "The phone, fax and address in the header belong to the Quest Diagnostics laboratory, not the payer or a provider, so they were not recorded.",
+    "There is no behavioral health content: no psychiatric diagnoses, medications or standardized assessments appear in this lab report."
+  ]
+}

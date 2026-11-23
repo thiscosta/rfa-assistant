@@ -1,0 +1,252 @@
+{
+  "document_type": "referral_letter",
+  "document_date": "01/15/2026",
+  "summary": "Referral dated 01/15/2026 from Dr. Susan Okafor, MD (Valley Primary Care Partners) to Sunrise Counseling Center for outpatient mental health evaluation and treatment of Elena R. Dominguez. The letter cites recurrent moderate major depressive disorder (F33.1) for about 6 months and suspected PTSD (F43.10) after a motor vehicle accident in August 2025. Comorbid hypothyroidism is listed. Recent scores were PHQ-9 16 and PCL-5 42. Requested services are psychiatric evaluation with medication management and individual psychotherapy (CBT/EMDR), weekly for 12 weeks, then reassess.",
+  "patient": {
+    "full_name": {
+      "value": "Elena R. Dominguez",
+      "quote": "Elena R. Dominguez",
+      "uncertain": false
+    },
+    "last_name": "Dominguez",
+    "first_name": "Elena",
+    "middle_initial": "R",
+    "date_of_birth": {
+      "value": "07/22/1975",
+      "quote": "07/22/1975",
+      "uncertain": false
+    },
+    "gender": {
+      "value": "Female",
+      "quote": "Gender Female",
+      "uncertain": false
+    },
+    "phone": {
+      "value": "(210) 555-0672",
+      "quote": "(210) 555-0672",
+      "uncertain": false
+    },
+    "address": {
+      "value": "1423 Alamo Heights Dr, San Antonio, TX 78209",
+      "quote": "1423 Alamo Heights Dr, San Antonio, TX 78209",
+      "uncertain": false
+    }
+  },
+  "insurance": {
+    "payer_name": {
+      "value": "Aetna",
+      "quote": "Primary Insurance Aetna",
+      "uncertain": false
+    },
+    "plan_name": null,
+    "member_id": {
+      "value": "W903847261",
+      "quote": "W903847261",
+      "uncertain": false
+    },
+    "group_number": {
+      "value": "AET-55102-TX",
+      "quote": "AET-55102-TX",
+      "uncertain": false
+    },
+    "payer_phone": null,
+    "payer_fax": null
+  },
+  "referring_provider": {
+    "name": {
+      "value": "Dr. Susan Okafor, MD",
+      "quote": "Dr. Susan Okafor, MD",
+      "uncertain": false
+    },
+    "npi": {
+      "value": "1456789023",
+      "quote": "NPI: 1456789023",
+      "uncertain": false
+    },
+    "organization": {
+      "value": "Valley Primary Care Partners",
+      "quote": "Valley Primary Care Partners",
+      "uncertain": false
+    },
+    "phone": {
+      "value": "(210) 555-0233",
+      "quote": "Phone: (210) 555-0233",
+      "uncertain": false
+    },
+    "fax": {
+      "value": "(210) 555-0234",
+      "quote": "Fax: (210) 555-0234",
+      "uncertain": false
+    },
+    "address": {
+      "value": "2850 Guadalupe St, Suite 100, San Antonio, TX 78205",
+      "quote": "2850 Guadalupe St, Suite 100, San Antonio, TX 78205",
+      "uncertain": false
+    },
+    "license_number": null
+  },
+  "treating_provider": {
+    "name": null,
+    "npi": null,
+    "organization": {
+      "value": "Sunrise Counseling Center",
+      "quote": "Sunrise Counseling Center",
+      "uncertain": false
+    },
+    "phone": null,
+    "fax": {
+      "value": "(210) 555-0891",
+      "quote": "Fax: (210) 555-0891",
+      "uncertain": false
+    },
+    "address": null,
+    "license_number": null
+  },
+  "diagnoses": [
+    {
+      "code": "F33.1",
+      "description": "Major Depressive Disorder, recurrent, moderate",
+      "role": "reason_for_services",
+      "quote": "Major Depressive Disorder, recurrent, moderate (F33.1)",
+      "uncertain": false
+    },
+    {
+      "code": "F43.10",
+      "description": "Post-Traumatic Stress Disorder",
+      "role": "reason_for_services",
+      "quote": "Post-Traumatic Stress Disorder (F43.10)",
+      "uncertain": false
+    },
+    {
+      "code": "E03.9",
+      "description": "Hypothyroidism",
+      "role": "comorbid",
+      "quote": "Hypothyroidism (E03.9)",
+      "uncertain": false
+    }
+  ],
+  "medications": [
+    {
+      "name": "Escitalopram",
+      "generic_name": "escitalopram",
+      "dose": "10mg",
+      "frequency": "daily",
+      "prescriber": null,
+      "quote": "Escitalopram 10mg daily",
+      "uncertain": false
+    },
+    {
+      "name": "Hydroxyzine",
+      "generic_name": "hydroxyzine",
+      "dose": "25mg",
+      "frequency": "as needed",
+      "prescriber": null,
+      "quote": "Hydroxyzine 25mg PRN",
+      "uncertain": false
+    },
+    {
+      "name": "Levothyroxine",
+      "generic_name": "levothyroxine",
+      "dose": "75mcg",
+      "frequency": null,
+      "prescriber": null,
+      "quote": "Levothyroxine 75mcg",
+      "uncertain": false
+    }
+  ],
+  "assessments": [
+    {
+      "tool": "PHQ-9",
+      "score": "16",
+      "interpretation": "moderately severe depression",
+      "date": "01/10/2026",
+      "quote": "PHQ-9 administered 01/10/2026: Score of 16 (moderately severe depression)",
+      "uncertain": false
+    },
+    {
+      "tool": "PCL-5",
+      "score": "42",
+      "interpretation": "probable PTSD",
+      "date": "01/10/2026",
+      "quote": "PCL-5 administered 01/10/2026: Score of 42 (probable PTSD)",
+      "uncertain": false
+    }
+  ],
+  "services_requested": [
+    {
+      "value": "Psychiatric evaluation and medication management",
+      "quote": "Psychiatric evaluation and medication management",
+      "uncertain": false
+    },
+    {
+      "value": "Individual psychotherapy (CBT/EMDR recommended)",
+      "quote": "Individual psychotherapy (CBT/EMDR recommended)",
+      "uncertain": false
+    }
+  ],
+  "requested_frequency": {
+    "value": "Weekly",
+    "quote": "Frequency: Weekly x 12 weeks, then reassess",
+    "uncertain": false
+  },
+  "requested_duration": {
+    "value": "12 weeks, then reassess",
+    "quote": "Weekly x 12 weeks, then reassess",
+    "uncertain": false
+  },
+  "level_of_care": "outpatient",
+  "symptoms": [
+    {
+      "value": "Symptoms consistent with major depressive disorder, recurrent, moderate, for approximately 6 months",
+      "quote": "symptoms consistent with Major Depressive Disorder, recurrent, moderate (F33.1) for approximately 6 months",
+      "uncertain": false
+    },
+    {
+      "value": "Symptoms suggestive of post-traumatic stress disorder following a motor vehicle accident in August 2025",
+      "quote": "symptoms suggestive of Post-Traumatic Stress Disorder (F43.10) following a motor vehicle accident in August\n2025",
+      "uncertain": false
+    }
+  ],
+  "functional_impairment": [],
+  "clinical_history": [
+    {
+      "value": "Motor vehicle accident in August 2025",
+      "quote": "following a motor vehicle accident in August",
+      "uncertain": false
+    },
+    {
+      "value": "Hypothyroidism, controlled on levothyroxine 75mcg",
+      "quote": "Hypothyroidism (E03.9), controlled on Levothyroxine 75mcg",
+      "uncertain": false
+    },
+    {
+      "value": "No history of substance use disorder",
+      "quote": "No history of substance use disorder",
+      "uncertain": false
+    },
+    {
+      "value": "No prior psychiatric hospitalizations",
+      "quote": "No prior psychiatric hospitalizations",
+      "uncertain": false
+    },
+    {
+      "value": "Family history positive for depression (mother) and anxiety (sister)",
+      "quote": "Family history positive for depression (mother) and anxiety (sister)",
+      "uncertain": false
+    }
+  ],
+  "risk_factors": [],
+  "treatment_plan": [
+    {
+      "value": "Weekly treatment for 12 weeks, then reassess; routine urgency (within 2 weeks)",
+      "quote": "URGENCY: Routine (within 2 weeks)",
+      "uncertain": false
+    }
+  ],
+  "reading_notes": [
+    "The treating organization is the receiving clinic (Sunrise Counseling Center). No individual treating provider is named.",
+    "The referring provider's TX Medical License #M-29471 is not captured because the schema has no referring_license field.",
+    "Level of care is set to outpatient because the letter states \"outpatient mental health evaluation and treatment.\"",
+    "Subscriber is Self, the coverage effective date is 01/01/2025 and the specialist copay is $30. No plan name or payer phone number is printed."
+  ]
+}

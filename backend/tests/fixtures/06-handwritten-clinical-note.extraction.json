@@ -1,0 +1,199 @@
+{
+  "document_type": "clinical_note",
+  "document_date": "02/05/2026",
+  "summary": "Handwritten follow-up note (02/05/2026) by Dr. R. Whitfield, MD for James O'Brien, who has recurrent moderate MDD (F33.1). He reports his mood is 'somewhat better' 3 weeks after starting Lexapro 10mg, with improved sleep but ongoing low motivation and energy and poor appetite. He denies SI/HI. PHQ-9 is 14, down from 21 on 1/15. Plan: continue Lexapro with a possible increase to 20mg, continue weekly therapy with Dr. Patel, follow up in 4 weeks, and get TSH/CBC labs.",
+  "patient": {
+    "full_name": {
+      "value": "James O'Brien",
+      "quote": "Pt: James O'Brien",
+      "uncertain": false
+    },
+    "last_name": "O'Brien",
+    "first_name": "James",
+    "middle_initial": null,
+    "date_of_birth": {
+      "value": "12/17/1983",
+      "quote": "DOB: 12/17/83",
+      "uncertain": false
+    },
+    "gender": null,
+    "phone": null,
+    "address": null
+  },
+  "insurance": {
+    "payer_name": {
+      "value": "Anthem BCBS",
+      "quote": "Ins: Anthem BCBS",
+      "uncertain": false
+    },
+    "plan_name": null,
+    "member_id": {
+      "value": "ANT-XK7829014",
+      "quote": "ID#: ANT-XK7829014",
+      "uncertain": false
+    },
+    "group_number": null,
+    "payer_phone": null,
+    "payer_fax": null
+  },
+  "referring_provider": null,
+  "treating_provider": {
+    "name": {
+      "value": "Dr. R. Whitfield, MD",
+      "quote": "Dr. R. Whitfield, MD",
+      "uncertain": false
+    },
+    "npi": {
+      "value": "1567890234",
+      "quote": "NPI: 1567890234",
+      "uncertain": false
+    },
+    "organization": null,
+    "phone": null,
+    "fax": null,
+    "address": null,
+    "license_number": null
+  },
+  "diagnoses": [
+    {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "role": "reason_for_services",
+      "quote": "MDD recurrent moderate (F33.1)",
+      "uncertain": false
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lexapro",
+      "generic_name": "escitalopram",
+      "dose": "10mg",
+      "frequency": null,
+      "prescriber": "Dr. R. Whitfield, MD",
+      "quote": "Continue Lexapro 10mg",
+      "uncertain": false
+    }
+  ],
+  "assessments": [
+    {
+      "tool": "PHQ-9",
+      "score": "14",
+      "interpretation": null,
+      "date": "02/05/2026",
+      "quote": "PHQ-9: 14",
+      "uncertain": false
+    },
+    {
+      "tool": "PHQ-9",
+      "score": "21",
+      "interpretation": null,
+      "date": "01/15/2026",
+      "quote": "was 21 on 1/15",
+      "uncertain": false
+    }
+  ],
+  "services_requested": [
+    {
+      "value": "Weekly therapy with Dr. Patel",
+      "quote": "Continue weekly therapy w/ Dr. Patel",
+      "uncertain": false
+    },
+    {
+      "value": "Medication management follow-up (Lexapro)",
+      "quote": "Continue Lexapro 10mg",
+      "uncertain": false
+    }
+  ],
+  "requested_frequency": {
+    "value": "Weekly",
+    "quote": "weekly therapy",
+    "uncertain": false
+  },
+  "requested_duration": null,
+  "level_of_care": null,
+  "symptoms": [
+    {
+      "value": "Mood reported as \"somewhat better\"",
+      "quote": "Reports mood \"somewhat better\"",
+      "uncertain": false
+    },
+    {
+      "value": "Ongoing trouble with motivation and energy",
+      "quote": "Still having trouble w/ motivation + energy",
+      "uncertain": false
+    },
+    {
+      "value": "Sleep improved to about 6 hours (was 3-4 hours)",
+      "quote": "Sleep improved - now getting ~6 hrs (was 3-4)",
+      "uncertain": false
+    },
+    {
+      "value": "Appetite still poor",
+      "quote": "Appetite still poor.",
+      "uncertain": false
+    },
+    {
+      "value": "Affect constricted but reactive",
+      "quote": "Affect: constricted but reactive",
+      "uncertain": false
+    }
+  ],
+  "functional_impairment": [],
+  "clinical_history": [
+    {
+      "value": "Started Lexapro 10mg 3 weeks ago with partial improvement; no side effects",
+      "quote": "since starting Lexapro 10mg 3 wks ago",
+      "uncertain": false
+    },
+    {
+      "value": "No side effects from medication",
+      "quote": "No side effects from medication.",
+      "uncertain": false
+    },
+    {
+      "value": "MDD, recurrent, moderate, improving on current regimen",
+      "quote": "improving on current regimen",
+      "uncertain": false
+    },
+    {
+      "value": "Mental status: casually dressed, fair hygiene; speech at normal rate and volume; thought process linear and goal-directed",
+      "quote": "Thought process: linear, goal-directed",
+      "uncertain": false
+    }
+  ],
+  "risk_factors": [
+    {
+      "value": "Denies suicidal/homicidal ideation",
+      "quote": "Denies SI/HI.",
+      "uncertain": false
+    }
+  ],
+  "treatment_plan": [
+    {
+      "value": "Continue Lexapro 10mg; consider increase to 20mg at next visit if partial response continues",
+      "quote": "consider increase to 20mg at next visit if partial response continues",
+      "uncertain": false
+    },
+    {
+      "value": "Continue weekly therapy with Dr. Patel",
+      "quote": "Continue weekly therapy w/ Dr. Patel",
+      "uncertain": false
+    },
+    {
+      "value": "Follow-up in 4 weeks",
+      "quote": "f/u in 4 weeks",
+      "uncertain": false
+    },
+    {
+      "value": "Labs: TSH and CBC if not done recently",
+      "quote": "Labs: TSH, CBC if not done recently",
+      "uncertain": false
+    }
+  ],
+  "reading_notes": [
+    "Handwritten note; the writing is legible throughout.",
+    "The prior PHQ-9 date '1/15' has no year written; 2026 is inferred from the note date.",
+    "Dr. Patel (therapist) is named only as the provider of weekly therapy. The note's author, Dr. R. Whitfield, is recorded as the treating provider.",
+    "Medication frequency is not stated."
+  ]
+}

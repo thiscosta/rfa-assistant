@@ -1,0 +1,8 @@
+anthropic==2.13.0
+fastapi==0.165.0
+httpx==0.28.1
+pydantic==2.14.4
+pymupdf==2.1
+pytest==9.2.0
+python-multipart==0.0.34
+uvicorn[standard]==0.54.0

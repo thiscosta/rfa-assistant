@@ -1,0 +1,316 @@
+{
+  "document_type": "intake_form",
+  "document_date": "02/10/2026",
+  "summary": "Intake form at Harmony Behavioral Health Center for Carlos M. Rodriguez, a 56-year-old male with Molina Healthcare of Texas Medicaid STAR coverage, referred by Dr. Patricia Nguyen, MD. He reports daily heavy alcohol use (6-8 beers/day) with mild morning tremors, depressed mood, insomnia and irritability for about 8 months since his divorce. He denies suicidal and homicidal ideation; a hunting rifle is kept at his daughter's house. Preliminary diagnoses are alcohol use disorder (moderate), MDD (single episode, moderate) and insomnia. Recommended services are a psychiatric evaluation and individual CBT plus motivational interviewing 2x/week, with IOP to be considered.",
+  "patient": {
+    "full_name": {
+      "value": "Carlos M. Rodriguez",
+      "quote": "Carlos M. Rodriguez",
+      "uncertain": false
+    },
+    "last_name": "Rodriguez",
+    "first_name": "Carlos",
+    "middle_initial": "M",
+    "date_of_birth": {
+      "value": "04/08/1969",
+      "quote": "Date of Birth 04/08/1969",
+      "uncertain": false
+    },
+    "gender": {
+      "value": "Male",
+      "quote": "Gender Male",
+      "uncertain": false
+    },
+    "phone": {
+      "value": "(512) 555-0831",
+      "quote": "(512) 555-0831",
+      "uncertain": false
+    },
+    "address": {
+      "value": "3100 S Lamar Blvd, Unit 221, Austin, TX 78704",
+      "quote": "3100 S Lamar Blvd, Unit 221, Austin, TX 78704",
+      "uncertain": false
+    }
+  },
+  "insurance": {
+    "payer_name": {
+      "value": "Molina Healthcare of Texas",
+      "quote": "Insurance Company Molina Healthcare of Texas",
+      "uncertain": false
+    },
+    "plan_name": {
+      "value": "Medicaid Managed Care - STAR",
+      "quote": "Medicaid Managed Care - STAR",
+      "uncertain": false
+    },
+    "member_id": {
+      "value": "MOL-TX-92047318",
+      "quote": "Member ID MOL-TX-92047318",
+      "uncertain": false
+    },
+    "group_number": null,
+    "payer_phone": {
+      "value": "(800) 555-0266",
+      "quote": "Insurance Phone 1-800-555-0266",
+      "uncertain": false
+    },
+    "payer_fax": null
+  },
+  "referring_provider": {
+    "name": {
+      "value": "Dr. Patricia Nguyen, MD",
+      "quote": "Dr. Patricia Nguyen, MD",
+      "uncertain": false
+    },
+    "npi": {
+      "value": "1345678901",
+      "quote": "Referring Provider NPI 1345678901",
+      "uncertain": false
+    },
+    "organization": {
+      "value": "Community Health Center of South Austin",
+      "quote": "Community Health Center of South Austin",
+      "uncertain": false
+    },
+    "phone": {
+      "value": "(512) 555-0720",
+      "quote": "Referring Provider Phone (512) 555-0720",
+      "uncertain": false
+    },
+    "fax": null,
+    "address": null,
+    "license_number": null
+  },
+  "treating_provider": {
+    "name": {
+      "value": "Lisa Tran, LCSW",
+      "quote": "Intake Clinician: Lisa Tran, LCSW",
+      "uncertain": false
+    },
+    "npi": null,
+    "organization": {
+      "value": "Harmony Behavioral Health Center",
+      "quote": "Harmony Behavioral Health Center",
+      "uncertain": false
+    },
+    "phone": null,
+    "fax": null,
+    "address": null,
+    "license_number": {
+      "value": "TX-LCSW-67201",
+      "quote": "License #: TX-LCSW-67201",
+      "uncertain": false
+    }
+  },
+  "diagnoses": [
+    {
+      "code": "F10.20",
+      "description": "Alcohol Use Disorder, moderate",
+      "role": "reason_for_services",
+      "quote": "Alcohol Use Disorder, moderate (F10.20)",
+      "uncertain": false
+    },
+    {
+      "code": "F32.1",
+      "description": "Major Depressive Disorder, single episode, moderate",
+      "role": "reason_for_services",
+      "quote": "Major Depressive Disorder, single episode, moderate (F32.1)",
+      "uncertain": false
+    },
+    {
+      "code": "G47.00",
+      "description": "Insomnia disorder",
+      "role": "reason_for_services",
+      "quote": "Insomnia disorder (G47.00)",
+      "uncertain": false
+    },
+    {
+      "code": "I10",
+      "description": "Hypertension",
+      "role": "comorbid",
+      "quote": "Hypertension (I10)",
+      "uncertain": false
+    },
+    {
+      "code": "K21.0",
+      "description": "GERD",
+      "role": "comorbid",
+      "quote": "GERD (K21.0)",
+      "uncertain": false
+    },
+    {
+      "code": "M51.16",
+      "description": "Lumbar disc herniation",
+      "role": "comorbid",
+      "quote": "Lumbar disc herniation (M51.16)",
+      "uncertain": false
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lisinopril",
+      "generic_name": "lisinopril",
+      "dose": "20mg",
+      "frequency": "daily",
+      "prescriber": null,
+      "quote": "Lisinopril 20mg daily",
+      "uncertain": false
+    },
+    {
+      "name": "Omeprazole",
+      "generic_name": "omeprazole",
+      "dose": "20mg",
+      "frequency": "daily",
+      "prescriber": null,
+      "quote": "Omeprazole 20mg daily",
+      "uncertain": false
+    }
+  ],
+  "assessments": [],
+  "services_requested": [
+    {
+      "value": "Psychiatric evaluation",
+      "quote": "Psychiatric evaluation",
+      "uncertain": false
+    },
+    {
+      "value": "Individual therapy (CBT + motivational interviewing)",
+      "quote": "Individual therapy (CBT + motivational interviewing)",
+      "uncertain": false
+    },
+    {
+      "value": "Consider intensive outpatient program (IOP) for alcohol use",
+      "quote": "Consider intensive outpatient program (IOP) for alcohol use",
+      "uncertain": false
+    }
+  ],
+  "requested_frequency": {
+    "value": "2x/week initially",
+    "quote": "Frequency: 2x/week initially",
+    "uncertain": false
+  },
+  "requested_duration": null,
+  "level_of_care": null,
+  "symptoms": [
+    {
+      "value": "Depressed mood",
+      "quote": "[X] Depressed mood",
+      "uncertain": false
+    },
+    {
+      "value": "Irritability / anger; feels angry all the time",
+      "quote": "[X] Irritability / anger",
+      "uncertain": false
+    },
+    {
+      "value": "Sleep disturbance (insomnia)",
+      "quote": "[X] Sleep disturbance (insomnia)",
+      "uncertain": false
+    },
+    {
+      "value": "Increased alcohol use: daily beer, occasionally whiskey, 6-8 beers/day, more on weekends; last drink the night before intake",
+      "quote": "Quantity: 6-8 beers/day, more on weekends",
+      "uncertain": false
+    },
+    {
+      "value": "Loss of interest in activities",
+      "quote": "[X] Loss of interest in activities",
+      "uncertain": false
+    },
+    {
+      "value": "Fatigue",
+      "quote": "Fatigue",
+      "uncertain": false
+    },
+    {
+      "value": "Decreased appetite",
+      "quote": "[X] Appetite changes (decreased)",
+      "uncertain": false
+    },
+    {
+      "value": "Difficulty concentrating",
+      "quote": "[X] Difficulty concentrating",
+      "uncertain": false
+    },
+    {
+      "value": "Symptom duration about 8 months, since divorce finalized June 2025",
+      "quote": "Duration: ~8 months (since divorce finalized June 2025)",
+      "uncertain": false
+    }
+  ],
+  "functional_impairment": [
+    {
+      "value": "Snapped at a client last week (occupational impact; self-employed landscaper)",
+      "quote": "I snapped at a client last week",
+      "uncertain": false
+    }
+  ],
+  "clinical_history": [
+    {
+      "value": "No previous treatment for alcohol use",
+      "quote": "Previous treatment: None",
+      "uncertain": false
+    },
+    {
+      "value": "No psychiatric medications",
+      "quote": "No psychiatric medications.",
+      "uncertain": false
+    },
+    {
+      "value": "Family history: father with alcohol use disorder (deceased, age 62); mother with depression (treated)",
+      "quote": "Father: Alcohol use disorder (deceased, age 62); Mother: Depression (treated)",
+      "uncertain": false
+    },
+    {
+      "value": "Divorced; onset of heavy drinking since divorce",
+      "quote": "I've been drinking too much since my divorce",
+      "uncertain": false
+    },
+    {
+      "value": "Medical history: hypertension, GERD, lumbar disc herniation; appendectomy (2001); allergy to sulfa drugs (rash)",
+      "quote": "Allergies: Sulfa drugs (rash)",
+      "uncertain": false
+    }
+  ],
+  "risk_factors": [
+    {
+      "value": "Alcohol withdrawal symptoms: mild tremors in the morning",
+      "quote": "Withdrawal symptoms: Mild tremors in the morning",
+      "uncertain": false
+    },
+    {
+      "value": "Access to firearms: hunting rifle, kept at daughter's house",
+      "quote": "Yes - hunting rifle, at daughter's house",
+      "uncertain": false
+    },
+    {
+      "value": "No current suicidal ideation and no past suicide attempts",
+      "quote": "Current suicidal ideation No",
+      "uncertain": false
+    },
+    {
+      "value": "No current homicidal ideation",
+      "quote": "Current homicidal ideation No",
+      "uncertain": false
+    },
+    {
+      "value": "No history of violence or self-harm; no current legal issues",
+      "quote": "History of self-harm No",
+      "uncertain": false
+    }
+  ],
+  "treatment_plan": [
+    {
+      "value": "Psychiatric evaluation, individual CBT + motivational interviewing at 2x/week initially; consider IOP for alcohol use",
+      "quote": "Consider intensive outpatient program (IOP) for alcohol use",
+      "uncertain": false
+    }
+  ],
+  "reading_notes": [
+    "The group number is printed as 'N/A (Medicaid)', so no group_number was recorded.",
+    "IOP is only listed as something to consider, so level_of_care was left as not_stated.",
+    "The diagnoses are labeled preliminary.",
+    "No standardized assessment scores appear in the document.",
+    "Insomnia disorder (G47.00) is classed as reason_for_services because it is listed among the preliminary behavioral health diagnoses."
+  ]
+}

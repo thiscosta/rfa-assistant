@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rfa-api",
+      "runtimeExecutable": "backend/.venv/bin/uvicorn",
+      "runtimeArgs": ["app.main:app", "--app-dir", "backend", "--port", "8000", "--reload", "--reload-dir", "backend/app"],
+      "port": 8000
+    },
+    {
+      "name": "rfa-web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--dir", "frontend", "dev"],
+      "port": 3100
+    }
+  ]
+}

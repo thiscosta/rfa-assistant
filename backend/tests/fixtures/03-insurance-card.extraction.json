@@ -1,0 +1,81 @@
+{
+  "document_type": "insurance_card",
+  "document_date": null,
+  "summary": "UnitedHealthcare Choice Plus PPO insurance card (front and back) for David Allen Thompson, with patient demographics. Mental Health line listed on back.",
+  "patient": {
+    "full_name": {
+      "value": "David Allen Thompson",
+      "quote": "Full Name: David Allen Thompson",
+      "uncertain": false
+    },
+    "last_name": "Thompson",
+    "first_name": "David",
+    "middle_initial": "A",
+    "date_of_birth": {
+      "value": "11/03/1982",
+      "quote": "DOB: 11/03/1982",
+      "uncertain": false
+    },
+    "gender": {
+      "value": "Male",
+      "quote": "Gender: Male",
+      "uncertain": false
+    },
+    "phone": {
+      "value": "(214) 555-0392",
+      "quote": "Phone: (214) 555-0392",
+      "uncertain": false
+    },
+    "address": {
+      "value": "7821 Lakewood Blvd, Apt 4C, Dallas, TX 75214",
+      "quote": "7821 Lakewood Blvd, Apt 4C, Dallas, TX 75214",
+      "uncertain": false
+    }
+  },
+  "insurance": {
+    "payer_name": {
+      "value": "UnitedHealthcare",
+      "quote": "UNITED HEALTHCARE",
+      "uncertain": false
+    },
+    "plan_name": {
+      "value": "Choice Plus PPO",
+      "quote": "Choice Plus PPO",
+      "uncertain": false
+    },
+    "member_id": {
+      "value": "UHC-84729103-05",
+      "quote": "UHC-84729103-05",
+      "uncertain": false
+    },
+    "group_number": {
+      "value": "742901",
+      "quote": "742901",
+      "uncertain": false
+    },
+    "payer_phone": {
+      "value": "(800) 555-0134",
+      "quote": "Mental Health:   1-800-555-0134",
+      "uncertain": false
+    },
+    "payer_fax": null
+  },
+  "referring_provider": null,
+  "treating_provider": null,
+  "diagnoses": [],
+  "medications": [],
+  "assessments": [],
+  "services_requested": [],
+  "requested_frequency": null,
+  "requested_duration": null,
+  "level_of_care": null,
+  "symptoms": [],
+  "functional_impairment": [],
+  "clinical_history": [],
+  "risk_factors": [],
+  "treatment_plan": [],
+  "reading_notes": [
+    "Card effective date 01/01/2026; no document date stated.",
+    "Member Services number 1-800-555-0199 also listed; Mental Health line used for payer_phone per instructions."
+  ]
+}
