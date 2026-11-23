@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: rfa-api
+    runtime: python
+    rootDir: backend
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: RFA_CORS_ORIGINS
+        sync: false
+      - key: RFA_DATA_DIR
+        value: /var/data
+    disk:
+      name: rfa-data
+      mountPath: /var/data
+      sizeGB: 1
+
+  - type: web
+    name: rfa-web
+    runtime: node
+    rootDir: frontend
+    plan: free
+    buildCommand: npx --yes pnpm@12.8.1 install --frozen-lockfile && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NEXT_PUBLIC_API_URL
+        sync: false

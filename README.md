@@ -87,6 +87,28 @@ Lint and format (backend, config in `backend/pyproject.toml`; install with `requ
 cd backend && .venv/bin/ruff check . && .venv/bin/ruff format --check .
 ```
 
+## Deploying to Render
+
+`render.yaml` is a Render Blueprint that creates both services:
+
+| Service | What | Plan |
+|---|---|---|
+| `rfa-api` | FastAPI backend, with a 1 GB persistent disk at `/var/data` for requests and uploads | Starter (paid; disks need a paid plan) |
+| `rfa-web` | Next.js frontend | Free (sleeps when idle; the first visit after that takes about a minute) |
+
+1. Push this repository to GitHub.
+2. In Render: **New → Blueprint**, pick the repository. Render reads `render.yaml` and asks for three values:
+   - `ANTHROPIC_API_KEY`: an API key from the Claude Console (**Settings → API Keys**). An `ant auth login` sign-in can't be used on a server.
+   - `RFA_CORS_ORIGINS`: the frontend's address, e.g. `https://rfa-web.onrender.com`.
+   - `NEXT_PUBLIC_API_URL`: the backend's address, e.g. `https://rfa-api.onrender.com`.
+
+   Render names services `<name>.onrender.com` when the name is free and adds a suffix when it isn't. If your addresses differ, update the two URLs, then redeploy `rfa-web`: the API address is built into the frontend, so it needs a new build.
+3. Open the `rfa-web` address and fill in **Clinic settings** first.
+
+Without `ANTHROPIC_API_KEY`, `rfa-api` fails to start and its log says why.
+
+To run without paying, set `rfa-api` to `plan: free` and remove its `disk` block. Requests and uploads are then lost whenever the service restarts or redeploys.
+
 ## Assumptions
 
 There was nobody to ask, so these are the calls I made. Each one is easy to change.
@@ -182,4 +204,5 @@ frontend/src/
     api/                   API types and client
     labels.ts              display labels
 samples/                   the provided sample documents
+render.yaml                Render Blueprint for both services
 ```
